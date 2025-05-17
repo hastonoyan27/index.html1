@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <title>Միքայել և Ժենյա - Հրավեր</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Միքայել և Ժենյա</h1>
+    <p class="date">25 Ապրիլ, 2025</p>
+    <p class="location">Երևան, Armenia</p>
+
+    <form class="rsvp-form" action="#" onsubmit="event.preventDefault(); alert('Շնորհակալություն RSVP-ի համար!');">
+      <label>Անուն և Ազգանուն
+        <input type="text" required>
+      </label>
+      <label>Մասնակցելու ե՞ք
+        <select required>
+          <option>Այո</option>
+          <option>Ոչ</option>
+        </select>
+      </label>
+      <label>Մասնակիցների քանակ
+        <input type="number" min="1" max="10">
+      </label>
+      <label>Մաղթանք կամ հաղորդագրություն
+        <textarea rows="3"></textarea>
+      </label>
+      <button type="submit">Ուղարկել</button>
+    </form>
+  </div>
+</body>
+</html>
